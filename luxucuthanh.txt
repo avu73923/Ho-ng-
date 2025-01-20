@@ -428,7 +428,7 @@ QuestLv = 1
 NameMon = "Pirate Millionaire"
 CFrameQ = CFrame.new(-289.61752319336, 43.819011688232, 5580.0903320313)
 CFrameMon = CFrame.new(-435.68109130859, 189.69866943359, 5551.0756835938)
-elseif Lv == 1525 or Lv <= 1575 or SelectMonster == "Pistol Billionaire" or SelectArea == 'Pirate Port' then -- Pistol Billoonaire
+elseif Lv == 1525 or Lv <= 1574 or SelectMonster == "Pistol Billionaire" or SelectArea == 'Pirate Port' then -- Pistol Billoonaire
 Ms = "Pistol Billionaire"
 NameQuest = "PiratePortQuest"
 QuestLv = 2
