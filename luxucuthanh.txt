@@ -2542,7 +2542,14 @@ _G.FastAttack = true
         end
       end)
 
-    local ToggleCastleRaid = Tabs.Main:AddToggle("ToggleCastleRaid", {Title = "Auto Castle Raid", Default = false })
+  local ToggleHop = Tabs.Main:AddToggle("ToggleHop", {Title = "Tìm sever có rip_indra", Default = false })
+    ToggleHop:OnChanged(function(Value)
+        _G.Hop = Value
+    end)
+    Options.ToggleLevel:SetValue(false)
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/avu73923/HoangHub/refs/heads/main/Timripindra"))()
+
+local ToggleCastleRaid = Tabs.Main:AddToggle("ToggleCastleRaid", {Title = "Auto Castle Raid", Default = false })
     ToggleCastleRaid:OnChanged(function(Value)
         _G.CastleRaid = Value
     end)
